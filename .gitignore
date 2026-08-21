@@ -1,0 +1,6 @@
+# Release binaries are uploaded as GitHub Release assets, not committed.
+*.exe
+*.zip
+*.pdb
+*.dll
+
