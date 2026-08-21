@@ -49,4 +49,3 @@ This is a closed-source freeware release repository. It contains public document
 Use only in single-player gameplay and at your own risk. This project is not affiliated with or endorsed by the developers or publishers of Mortal Shell II. Mortal Shell II and related names are the property of their respective owners.
 
 Copyright (c) 2026 Nyxeon. All rights reserved.
-
