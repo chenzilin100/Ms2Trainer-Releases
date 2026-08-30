@@ -10,8 +10,10 @@ The trainer is distributed as a self-contained Windows executable. No separate .
 
 ## Features
 
+- Health recovery for both the body and the currently active shell
 - Automatic Perfect Defense using Active Block or Harden
-- Automatic Perfect Dodge for verified attacks, including supported projectile, radial, and explosion routes
+- Automatic Perfect Dodge for verified attacks, with an optional red-mark-focused mode that leaves confirmed guardable attacks untouched
+- Supported projectile, radial, explosion, and delayed unblockable attack routes
 - Equipment-aware rebinding and manual rebind fallback
 - English and Simplified Chinese interface
 - Persistent language and theme settings
@@ -23,7 +25,7 @@ Parry-based automatic defense is not currently supported.
 
 - Windows 10 or Windows 11, 64-bit
 - Mortal Shell II single-player gameplay
-- Current verified game build: `++Sparta-Depot+Day1+CL92370-CL-0`
+- Current verified game build: `++Sparta-Depot+Main+CL92935+1279-CL-0`
 
 Future game updates may remain compatible when the required runtime signatures can still be validated. The trainer will report a compatibility problem when it cannot safely bind the required functions.
 
@@ -32,7 +34,9 @@ Future game updates may remain compatible when the required runtime signatures c
 1. Download and extract `Ms2Trainer.zip` from the latest release.
 2. Start Mortal Shell II and enter the game.
 3. Run `Ms2Trainer.exe`.
-4. Enable Automatic Perfect Defense, Automatic Perfect Dodge, or both.
+4. Enable Lock Health, Automatic Perfect Defense, Automatic Perfect Dodge, or any combination you want.
+
+When Automatic Perfect Dodge is used by itself, the optional **Dodge red-marked attacks only** mode leaves confirmed guardable attacks to normal combat. Attacks that cannot be classified safely may still trigger Dodge.
 
 Settings are stored in `%LOCALAPPDATA%\Nyxeon\Ms2Trainer\settings.json`. Diagnostic logs are stored separately in `%LOCALAPPDATA%\Nyxeon\Ms2Trainer\Logs`.
 

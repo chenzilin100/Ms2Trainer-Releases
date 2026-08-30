@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0 - 2026-08-31
+
+- Added support for the Mortal Shell II Week 1 build (`++Sparta-Depot+Main+CL92935+1279-CL-0`).
+- Added health recovery for both the body and the currently active shell.
+- Added an optional red-mark-focused Dodge mode that leaves confirmed guardable attacks untouched.
+- Fixed remote-dispatch ownership during rebinding to reduce crash risk when a rebind overlaps menu transitions.
+- Improved the combat-assistance interface while preserving the existing full-Dodge, Active Block, and Harden behavior.
+
 ## v1.1.2 - 2026-08-21
 
 - Added automatic dodge coverage for additional radial and explosion attack routes.
