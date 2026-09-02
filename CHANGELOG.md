@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.1 - 2026-09-03
+
+- Added support for the Mortal Shell II build `++Sparta-Depot+Main+CL92935+1300-CL-0` while retaining the previously verified `CL92935+1279` build profile.
+- Added a compact unsupported-game-version status indicator in the bottom bar.
+- Added persistent GitHub and 3DM update links in the session panel.
+- Preserved the existing Lock Health, Automatic Perfect Defense, Automatic Perfect Dodge, red-mark-only Dodge, Active Block, and Harden behavior.
+
 ## v1.2.0 - 2026-08-31
 
 - Added support for the Mortal Shell II Week 1 build (`++Sparta-Depot+Main+CL92935+1279-CL-0`).

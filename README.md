@@ -18,6 +18,7 @@ The trainer is distributed as a self-contained Windows executable. No separate .
 - English and Simplified Chinese interface
 - Persistent language and theme settings
 - Bounded local diagnostic logs for troubleshooting
+- Clear unsupported-build status with persistent GitHub and 3DM update links
 
 Parry-based automatic defense is not currently supported.
 
@@ -25,9 +26,11 @@ Parry-based automatic defense is not currently supported.
 
 - Windows 10 or Windows 11, 64-bit
 - Mortal Shell II single-player gameplay
-- Current verified game build: `++Sparta-Depot+Main+CL92935+1279-CL-0`
+- Verified game builds:
+  - `++Sparta-Depot+Main+CL92935+1279-CL-0`
+  - `++Sparta-Depot+Main+CL92935+1300-CL-0`
 
-Future game updates may remain compatible when the required runtime signatures can still be validated. The trainer will report a compatibility problem when it cannot safely bind the required functions.
+If an unsupported game version is detected, the trainer shows a clear compatibility status in the bottom bar and keeps GitHub and 3DM update links available in the session panel. Future game updates may remain compatible when the required runtime signatures can still be validated.
 
 ## Usage
 
