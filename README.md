@@ -27,6 +27,7 @@ Parry-based automatic defense is not currently supported.
 - Windows 10 or Windows 11, 64-bit
 - Mortal Shell II single-player gameplay
 - Verified game builds:
+  - `Steam build 25133113` / `++Sparta-Depot+Main+CL93241+1339-CL-0`
   - `++Sparta-Depot+Main+CL92935+1279-CL-0`
   - `++Sparta-Depot+Main+CL92935+1300-CL-0`
 

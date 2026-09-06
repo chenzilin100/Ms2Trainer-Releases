@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.2 - 2026-09-06
+
+- Added support for Steam build `25133113` (`++Sparta-Depot+Main+CL93241+1339-CL-0`).
+- Updated automatic defense and dodge compatibility for the current game build.
+- Preserved Lock Health, normal and red-mark-only Dodge, and combined defense behavior.
+- Verified through in-game single-player testing.
+
 ## v1.2.1 - 2026-09-03
 
 - Added support for the Mortal Shell II build `++Sparta-Depot+Main+CL92935+1300-CL-0` while retaining the previously verified `CL92935+1279` build profile.
