@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.3 - 2026-09-15
+
+- Added support for the September 15 game update (Steam build `25265616`).
+- Improved compatibility with minor game updates when the required game code and resources remain unchanged.
+- Changed the main update link to Patreon.
+
 ## v1.2.2 - 2026-09-06
 
 - Added support for Steam build `25133113` (`++Sparta-Depot+Main+CL93241+1339-CL-0`).

@@ -4,7 +4,7 @@ An external trainer for **Mortal Shell II**, focused on automatic defensive assi
 
 ## Download
 
-Download the latest version from [GitHub Releases](https://github.com/chenzilin100/Ms2Trainer-Releases/releases/latest).
+Download the latest version from [GitHub Releases](https://github.com/chenzilin100/Ms2Trainer-Releases/releases/latest). Updates are also available on [Patreon](https://www.patreon.com/Nyxeon/posts/mortal-shell-ii-169084288).
 
 The trainer is distributed as a self-contained Windows executable. No separate .NET runtime installation is required.
 
@@ -18,7 +18,7 @@ The trainer is distributed as a self-contained Windows executable. No separate .
 - English and Simplified Chinese interface
 - Persistent language and theme settings
 - Bounded local diagnostic logs for troubleshooting
-- Clear unsupported-build status with persistent GitHub and 3DM update links
+- Clear unsupported-build status with persistent Patreon and 3DM update links
 
 Parry-based automatic defense is not currently supported.
 
@@ -26,12 +26,13 @@ Parry-based automatic defense is not currently supported.
 
 - Windows 10 or Windows 11, 64-bit
 - Mortal Shell II single-player gameplay
-- Verified game builds:
+- Supported game builds:
+  - `Steam build 25265616` / `++Sparta-Depot+Main+CL93241+1395-CL-0`
   - `Steam build 25133113` / `++Sparta-Depot+Main+CL93241+1339-CL-0`
   - `++Sparta-Depot+Main+CL92935+1279-CL-0`
   - `++Sparta-Depot+Main+CL92935+1300-CL-0`
 
-If an unsupported game version is detected, the trainer shows a clear compatibility status in the bottom bar and keeps GitHub and 3DM update links available in the session panel. Future game updates may remain compatible when the required runtime signatures can still be validated.
+Some later minor updates may remain compatible when the required game code and resources are unchanged and pass compatibility checks. Other updates still require a trainer update. If an unsupported game version is detected, the bottom bar reports it and the Patreon and 3DM update links remain available in the session panel.
 
 ## Usage
 
