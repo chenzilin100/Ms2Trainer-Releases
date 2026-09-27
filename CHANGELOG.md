@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.4 - 2026-09-28
+
+- Added support for the September 25 Mortal Shell II hotfix (Steam build `25478144`).
+
 ## v1.2.3 - 2026-09-15
 
 - Added support for the September 15 game update (Steam build `25265616`).
