@@ -4,7 +4,7 @@ An external trainer for **Mortal Shell II**, focused on automatic defensive assi
 
 ## Download
 
-Download the latest version from [GitHub Releases](https://github.com/chenzilin100/Ms2Trainer-Releases/releases/latest). Updates are also available on [Patreon](https://www.patreon.com/Nyxeon/posts/mortal-shell-ii-169084288).
+Download the latest version from [GitHub Releases](https://github.com/chenzilin100/Ms2Trainer-Releases/releases/latest). Updates are also available on [Patreon](https://www.patreon.com/Nyxeon/posts/169084288) and [Afdian](https://afdian.com/p/4bfa7998ac9411f1b41652540025c377).
 
 The trainer is distributed as a self-contained Windows executable. No separate .NET runtime installation is required.
 
@@ -18,7 +18,8 @@ The trainer is distributed as a self-contained Windows executable. No separate .
 - English and Simplified Chinese interface
 - Persistent language and theme settings
 - Bounded local diagnostic logs for troubleshooting
-- Clear unsupported-build status with persistent Patreon and 3DM update links
+- In-app feedback with an optional description, recent trainer logs and system information
+- Clear unsupported-build status with persistent Afdian and Patreon update links
 
 Parry-based automatic defense is not currently supported.
 
@@ -27,13 +28,14 @@ Parry-based automatic defense is not currently supported.
 - Windows 10 or Windows 11, 64-bit
 - Mortal Shell II single-player gameplay
 - Supported game builds:
+  - `Steam build 26315250` / `++Sparta-Depot+Main+CL98314+1943-CL-0`
   - `Steam build 25478144` / `++Sparta-Depot+Main+CL93241+1511-CL-0`
   - `Steam build 25265616` / `++Sparta-Depot+Main+CL93241+1395-CL-0`
   - `Steam build 25133113` / `++Sparta-Depot+Main+CL93241+1339-CL-0`
   - `++Sparta-Depot+Main+CL92935+1279-CL-0`
   - `++Sparta-Depot+Main+CL92935+1300-CL-0`
 
-Some later minor updates may remain compatible when the required game code and resources are unchanged and pass compatibility checks. Other updates still require a trainer update. If an unsupported game version is detected, the bottom bar reports it and the Patreon and 3DM update links remain available in the session panel.
+Some later minor updates may remain compatible when the required game code and resources are unchanged and pass compatibility checks. Other updates still require a trainer update. If an unsupported game version is detected, the bottom bar reports it and the Afdian and Patreon update links remain available in the session panel.
 
 ## Usage
 
@@ -42,7 +44,13 @@ Some later minor updates may remain compatible when the required game code and r
 3. Run `Ms2Trainer.exe`.
 4. Enable Lock Health, Automatic Perfect Defense, Automatic Perfect Dodge, or any combination you want.
 
-When Automatic Perfect Dodge is used by itself, the optional **Dodge red-marked attacks only** mode leaves confirmed guardable attacks to normal combat. Attacks that cannot be classified safely may still trigger Dodge.
+When Automatic Perfect Dodge is used by itself, the optional **Red-marked attacks only** mode leaves confirmed guardable attacks to normal combat. Attacks that cannot be classified safely may still trigger Dodge.
+
+Open **Report an issue** to send feedback. A description is optional; recent trainer logs and system information are attached when you send.
+
+## Interface
+
+![Ms2Trainer v1.2.6 interface](https://github.com/chenzilin100/Ms2Trainer-Releases/releases/download/v1.2.6/Ms2Trainer-UI.png)
 
 Settings are stored in `%LOCALAPPDATA%\Nyxeon\Ms2Trainer\settings.json`. Diagnostic logs are stored separately in `%LOCALAPPDATA%\Nyxeon\Ms2Trainer\Logs`.
 

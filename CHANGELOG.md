@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.6 - 2026-11-13
+
+- Updated game compatibility.
+- Added **Report an issue** so you can send feedback directly from the trainer.
+
 ## v1.2.4 - 2026-09-28
 
 - Added support for the September 25 Mortal Shell II hotfix (Steam build `25478144`).
